@@ -1,0 +1,47 @@
+body {
+     font-size: 16px;
+     color: #fff;
+     background-color: rgb(233, 146, 146);
+     font-family: 'Oxygen', sans-serif;
+     }
+
+/** HEADER **/
+#Testo  {
+        height: 1500px !important;
+        margin-top: 100px !important;
+        }
+
+#passID {
+    height: 100px;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    }
+.logo {
+       color: rgb(247, 141, 141);
+      }
+
+/** BODY **/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #menu {
+      display: none !important;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    #menu {
+      display: none !important;
+    }
+  }
+  @media (min-width: 1200px) {
+    #menu {
+      display: none !important;
+    }
+}
+     
+
