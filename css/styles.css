@@ -6,42 +6,29 @@ body {
      }
 
 /** HEADER **/
-#Testo  {
-        height: 1500px !important;
-        margin-top: 100px !important;
-        }
 
-#passID {
-    height: 100px;
-    background-color: #333;
-    position: fixed;
+
+#header-nav {
+    background-color: rgb(238, 175, 104);
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    display: block;
     transition: top 0.3s;
     }
-.logo {
-       color: rgb(247, 141, 141);
-      }
+
+
 
 /** BODY **/
-
-@media (min-width: 768px) and (max-width: 991px) {
-    #menu {
-      display: none !important;
-    }
-  }
-  @media (min-width: 992px) and (max-width: 1199px) {
-    #menu {
-      display: none !important;
-    }
-  }
-  @media (min-width: 1200px) {
-    #menu {
-      display: none !important;
-    }
+#Testo {
+  color: rgb(50, 33, 148);
+  background-color: rgba(132, 150, 153, 0.651);
 }
-     
 
+@media (max-width: 767px) {
+  
+ h1 {
+   float: left;
+ }
+ 
+}

@@ -2,9 +2,9 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("passID").style.top = "0";
+    document.getElementById("header-nav").style.top = "0";
   } else {
-    document.getElementById("passID").style.top = "-100px";
+    document.getElementById("header-nav").style.top = "-50px";
   }
   prevScrollpos = currentScrollPos;
 }
